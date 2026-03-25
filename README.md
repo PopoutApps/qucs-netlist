@@ -14,22 +14,23 @@ Converts Qucs-s schematic files into a netlist file suitable for Veroboard/strip
     
 **Neatest Installation** If you want it on the desktop menu, or are reluctant to trust the executable.
   Download the qucs-netlist.tar.gz file.
-  Copy it somewhere convenient.
-  Extract it to get:
-    qucs-netlist.desktop
-    qucs-netlist.dat
-    qucs-netlist.hlp
-    qucs-netlist.py
-    qucs-netlist.png
-    qucs-netlist
+  Double-click it to extract it to a directory called qucs-netlist.
+  Double-click the directory to open it, you should see:
     install.sh
+    qucs-netlist
+    qucs-netlist.dat
+    qucs-netlist.desktop
+    qucs-netlist.hlp
+    qucs-netlist.png
+    qucs-netlist.py
     uninstall.sh
+  Right click on install.sh then select Run as a Program.
+  Enter your password.
+  You can delete the qucs-netlist.tar.gz and the qucs-netlist directory after installation, but keep uninstall.sh. 
+  (Run uninstall.sh in the same way as you ran install.sh to remove it.)
 
-  Open a terminal, go into that directory, type ./install.sh.
-  You can delete the qucs-netlist.tar.gz and that directory after installation, but keep uninstall.sh. 
   To run it, find the icon with the Gnome menu and click on it.
-  (Run uninstall.sh to remove it.)
-
+  
 **Running it**
   Choose the schematic file you want, it will then output a file with the same name, but the extension .net. Eg example.sch will produce example.net. It will also produce an intermediate file called example.sim which can be deleted.
 
